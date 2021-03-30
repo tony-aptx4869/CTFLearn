@@ -1,4 +1,4 @@
-# [Forensics 101](https://https://ctflearn.com/challenge/96) (30)
+# [Forensics 101](https://ctflearn.com/challenge/96) (30)
 At the [mega link](https://mega.nz/#!OHohCbTa!wbg60PARf4u6E6juuvK9-aDRe_bgEL937VO01EImM7c) we find a minion meme. <br />
 My first thought is stenography, the art of hiding messages in images, so I downloaded the image. <br />
 ![Minion Meme](img/meme.jpg) <br />
