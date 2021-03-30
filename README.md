@@ -1,2 +1,2 @@
 # CTFLearn
-Write ups for all CTFs i've solved on ctflearn.com
+Write ups for all CTFs i've solved on [CTFLearn](https://ctflearn.com).
