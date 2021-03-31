@@ -40,3 +40,7 @@ But something interesting is a PNG image with the dimensions we saw in `strings`
 Running `binwalk -e PurpleThing.jpeg` to extract the files creates a directory with an empty file called `29` and another zlib compressed file called `29.zlib`<br />
 Uncompressing with `zlib-flate -uncompress < 29.zlib > out` reveals nothing by using `strings out` or `cat out` <br />
 Viewing `out` as an image reveals a tiny white square with nothing in it. <br />
+
+As it turns out `binwalk`s `-e` option isn't extracting all files. The zlib is also the PNG data for the original image as I believed. <br />
+Solution: Either use `foremost PurpleThing.jpeg`, a similar program, or `binwalk -e --dd=".*" PurpleThing.jpeg`, which will extract **all** embedded files. <br />
+Lesson Learnt: Uninstall `binwalk`
