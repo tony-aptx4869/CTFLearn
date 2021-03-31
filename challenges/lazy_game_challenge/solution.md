@@ -1,4 +1,7 @@
 # [Lazy Game Challenge](https://ctflearn.com/challenge/691) (30)
+
+### GITHUB DOES NOT RENDER THIS MARKDOWN CORRECTLY
+
 Let's connect to the server with `nc thekidofarcrania.com 10001` <br />
 Here's what we see: <br />
 ```
