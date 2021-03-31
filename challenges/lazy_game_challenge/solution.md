@@ -33,4 +33,63 @@ Traceback (most recent call last):
     spent = int(input('Place a Bet : '))
 ValueError: invalid literal for int() with base 10: '(1 * (-500))'
 ```
-Now we have a piece of information on how the serverside code handles things, now we can mess with abusing the `int(input())` function in python <br />
+Now we have a piece of information on how the serverside code handles things, we  know the server is programmed in python, and we see that our bet is stored in the variable `spent` <br />
+<br />
+I was able to increase my balance on a loss by entering a negative integer when placing a bet: <br />
+```
+(placed bet of -1000)
+
+Sorry you didn't made it !
+Play Again !...
+Better Luck next Time !.
+Sorry you lost some money !..
+Your balance has been updated !.
+Current balance :  : 
+1500$
+```
+<br />
+I was able to win a jackpot by guessing the correct number, but when betting -1000000 it caused my balance to be displayed as negative: <br />
+```
+You made it !.
+You won JACKPOT !..
+You thought of what computer thought !.
+Your balance has been updated !
+
+Current balance : -100500$
+Want to play again? Y/N : 
+```
+<br />
+Placing a bet with an extremely large negative number causes an immediate server disconnect: <br />
+```
+Money you have : -1999500$
+Place a Bet : -10000000000000000000000000000000000000000000000000000000000000000000
+
+(disconnected)
+```
+<br />
+### What we've learned
+If you bet with a negative number and win, your account balance will decrease. <br />
+We know that we can bet numbers **less than** our balance, and if we win, our balance has our bet added to it. <br />
+It seems best to enter a bet with a negative number, lose, and see your account balance increase. <br />
+
+Therefore, to get to an account balance of over `$1000000`, we need to bet at most `-999501` and lose. <br />
+We can ensure a loss by guessing 0 everytime. <br />
+```
+Sorry you didn't made it !
+Play Again !...
+Better Luck next Time !.
+Sorry you lost some money !..
+Your balance has been updated !.
+Current balance :  : 
+1000500$
+What the... how did you get that money (even when I tried to stop you)!? I guess you beat me!
+
+The flag is CTFlearn{d9029a08c55b936cbc9a30_i_wish_real_betting_games_were_like_this!}
+
+Thank you for playing ! 
+Made by John_123
+Small mods by theKidOfArcrania
+Give it a (+1) if you like !..
+```
+
+By reaching a balance over 1 million, we get the flag: `CTFlearn{d9029a08c55b936cbc9a30_i_wish_real_betting_games_were_like_this!}`
