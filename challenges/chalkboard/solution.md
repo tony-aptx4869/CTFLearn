@@ -1,7 +1,7 @@
 # [Chalkboard](https://ctflearn.com/challenge/972) (30)
 Downloading the [image](https://ctflearn.com/challenge/download/972) presents us with the following: <br />
 ![Chalkboard](img/math.jpg) <br />
-Since the challenge text tells us there are images embedded in this image, I tried to use foremost to extract them, but it revealed no emedded images. <br />
+Since the challenge text tells us there are images embedded in this image, I tried to use `foremost` to extract them, but it revealed no emedded images. <br />
 Running `strings math.jpg | less` reveals: <br />
 ```
 The flag for this challenge is of the form:
