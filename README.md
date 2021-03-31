@@ -16,3 +16,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 13. [Vignere Cipher](https://github.com/XNUConner/CTFLearn/tree/master/challenges/vignere_cipher) <br />
 14. [Simple Programming](https://github.com/XNUConner/CTFLearn/tree/master/challenges/simple_programming) <br />
 15. [QR Code](https://github.com/XNUConner/CTFLearn/tree/master/challenges/qr_code) <br />
+16. [BruXOR](https://github.com/XNUConner/CTFLearn/tree/master/challenges/bruxor) <br />
