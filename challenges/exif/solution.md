@@ -1,6 +1,6 @@
 # [Exif](https://ctflearn.com/challenge/303) (20)
 Downloading the file at the [link](https://mega.nz/#!SDpF0aYC!fkkhBJuBBtBKGsLTDiF2NuLihP2WRd97Iynd3PhWqRw), we find the following image: <br />
-![Password surrounded by binary data](img/Computer-Password-Security-Hacker - Copy .jpg) <br />
+![Password surrounded by binary data](img/Computer-Password-Security-Hacker - Copy.jpg) <br />
 <br />
 Running `exif` on the image, we get the following:
 ```
