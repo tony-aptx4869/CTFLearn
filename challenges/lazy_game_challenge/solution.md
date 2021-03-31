@@ -67,7 +67,7 @@ Place a Bet : -10000000000000000000000000000000000000000000000000000000000000000
 (disconnected)
 ```
 <br />
-### What we've learned
+**What we've learned**:
 If you bet with a negative number and win, your account balance will decrease. <br />
 We know that we can bet numbers **less than** our balance, and if we win, our balance has our bet added to it. <br />
 It seems best to enter a bet with a negative number, lose, and see your account balance increase. <br />
