@@ -1,6 +1,6 @@
 # [PikesPeak](https://ctflearn.com/challenge/935) (20)
 Upon downloading the [image](https://ctflearn.com/challenge/download/935), we see the following: <br />
-![Pike's Peak](img/PikesPeak) <br />
+![Pike's Peak](img/PikesPeak.jpg) <br />
 Running `strings PikePeak.jpg | less` we find a few flags:
 ```
 CTFLEARN{PikesPeak}
