@@ -11,3 +11,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 8. [Binwalk](https://github.com/XNUConner/CTFLearn/tree/master/challenges/binwalk) <br />
 9. [Morse Code](https://github.com/XNUConner/CTFLearn/tree/master/challenges/morse_code) <br />
 10. [Hextroadinary](https://github.com/XNUConner/CTFLearn/tree/master/challenges/hextroadinary) <br />
+11. [Reverse Polarity](https://github.com/XNUConner/CTFLearn/tree/master/challenges/reverse_polarity) <br />
