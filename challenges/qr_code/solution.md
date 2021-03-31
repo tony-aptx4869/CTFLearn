@@ -1,5 +1,5 @@
 # [QR Code](https://ctflearn.com/challenge/228) (30)
-Downloading the file from the [link](https://mega.nz/#!eGYlFa5Z!8mbiqg3kosk93qJCP-DBxIilHH2rf7iIVY-kpwyrx-0), we are given a qrcode in png format. <br />
+Downloading the file from the [link](https://mega.nz/#!eGYlFa5Z!8mbiqg3kosk93qJCP-DBxIilHH2rf7iIVY-kpwyrx-0), we are given a QR code in png format. <br />
 ![qr code](img/qrcode.png) <br />
 When we try scanning it with a phone, the code resolves to base64 encoded text: `c3ludCB2ZiA6IGEwX29icWxfczBldHJnX2RlX3BicXI=` <br />
 We can decode it with `echo c3ludCB2ZiA6IGEwX29icWxfczBldHJnX2RlX3BicXI= | base64 -d` <br />
