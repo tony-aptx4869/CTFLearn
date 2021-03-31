@@ -2,7 +2,7 @@
 The first hints we get are that this challenge utilizes the [XOR operation](https://en.wikipedia.org/wiki/Exclusive_or) and we need to bruteforce it. <br />
 The message is `q{vpln'bH_varHuebcrqxetrHOXEj` <br />
 Seems like the ascii characters were XOR'ed with some other value <br />
-If the [last challenge]() was anything to go off of, guessing part of the decoded ciphertext could give us a clue. <br />
+If the [last challenge](https://github.com/XNUConner/CTFLearn/edit/master/challenges/qr_code/solution.md) was anything to go off of, guessing part of the decoded ciphertext could give us a clue. <br />
 <br />
 The decoded ciphertext probably starts with `flag` <br />
 [ascii.cl](https://ascii.cl) shows that that ascii value of **f** is 102. <br />
@@ -20,12 +20,11 @@ This means that the same XOR value used to encrypt this message (23) is the same
 Let's decrypt the ciphertext with a simple C program: <br />
 ```
 int main(void) {
-	char* ciphertext = "q{vpln'bH_varHuebcrqxetrHOXEj";
-	while(*ciphertext) {
-		printf("%c",*ciphertext ^ 23);
-		ciphertext++;
-	}
+    char* ciphertext = "q{vpln'bH_varHuebcrqxetrHOXEj";
+    while(*ciphertext) {
+        printf("%c",*ciphertext ^ 23);
+        ciphertext++;
+    }
 }
-
 ```
-Our output the flag: `flag{y0u_Have_bruteforce_XOR}` <br />
+Our output is the flag: `flag{y0u_Have_bruteforce_XOR}` <br />
