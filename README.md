@@ -26,3 +26,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 23. [PikesPeak](https://github.com/XNUConner/CTFLearn/tree/master/challenges/pikespeak) <br />
 24. [My Blog](https://github.com/XNUConner/CTFLearn/tree/master/challenges/my_blog) <br />
 25. [I'm a dump](https://github.com/XNUConner/CTFLearn/tree/master/challenges/im_a_dump) <br />
+26. [Chalkboard](https://github.com/XNUConner/CTFLearn/tree/master/challenges/chalkboard) <br />
