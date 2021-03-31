@@ -43,4 +43,4 @@ Viewing `out` as an image reveals a tiny white square with nothing in it. <br />
 
 As it turns out `binwalk`s `-e` option isn't extracting all files. The zlib is also the PNG data for the original image as I believed. <br />
 Solution: Either use `foremost PurpleThing.jpeg`, a similar program, or `binwalk -e --dd=".*" PurpleThing.jpeg`, which will extract **all** embedded files. <br />
-Lesson Learnt: Uninstall `binwalk`
+The flag will be in one of the png outputs from `foremost`, it's `ABCTF{b1nw4lk_is_us3ful}` <br />
