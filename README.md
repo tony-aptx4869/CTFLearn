@@ -21,3 +21,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 18. [HyperStream Test 2](https://github.com/XNUConner/CTFLearn/tree/master/challenges/hyperstream_test_2) <br />
 19. [Exif](https://github.com/XNUConner/CTFLearn/tree/master/challenges/exif) <br />
 20. [Lazy Game Challenge](https://github.com/XNUConner/CTFLearn/tree/master/challenges/lazy_game_challenge) <br />
+21. [Rubber Duck](https://github.com/XNUConner/CTFLearn/tree/master/challenges/rubber_duck) <br />
