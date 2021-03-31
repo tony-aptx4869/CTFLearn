@@ -19,3 +19,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 16. [BruXOR](https://github.com/XNUConner/CTFLearn/tree/master/challenges/bruxor) <br />
 17. [Git Is Good](https://github.com/XNUConner/CTFLearn/tree/master/challenges/git_is_good) <br />
 18. [HyperStream Test 2](https://github.com/XNUConner/CTFLearn/tree/master/challenges/hyperstream_test_2) <br />
+19. [Exif](https://github.com/XNUConner/CTFLearn/tree/master/challenges/exif) <br />
