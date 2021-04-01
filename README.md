@@ -1,6 +1,14 @@
 # CTFLearn
 Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 
+### What is a CTF?
+- CTF is an acronym for **C**apture **T**he **F**lag. <br />
+- A CTF starts with a challenge, which when completed successfully, will reveal the *flag*, a string of text that can be entered for points. <br />
+Challenges can be anything from [decoding a simple cipher](https://github.com/XNUConner/CTFLearn/tree/master/challenges/suspecious_message), to [hacking an intentionally vulnerable Gitlab server](https://www.youtube.com/watch?v=LrLJuyAdoAg). <br />
+- This repo began on March 29th 2021, as a look into my thought process when solving problems. <br />
+
+### Write ups
+#### Easy (Sorted most solves -> least solves)
 1. [Character Encoding](https://github.com/XNUConner/CTFLearn/tree/master/challenges/character_encoding) <br/>
 2. [Base 2 2 the 6](https://github.com/XNUConner/CTFLearn/tree/master/challenges/base_2_2_the_6) <br />
 3. [Wikipedia](https://github.com/XNUConner/CTFLearn/tree/master/challenges/wikipedia) <br />
