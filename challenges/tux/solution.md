@@ -1,7 +1,7 @@
 # [Tux!](https://ctflearn.com/challenge/973) (20)
 Upon downloading the [image](https://ctflearn.com/challenge/download/973) we are presented with: <br />
 ![Penguin](img/Tux.jpg) <br />
-Using `strings Tux.jpg | less` we find no flag but there are two interesting strings: <br />
+Using `strings Tux.jpg | less` we find no flag but there are three interesting strings: <br />
 ```
 ICAgICAgUGFzc3dvcmQ6IExpbnV4MTIzNDUK
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
