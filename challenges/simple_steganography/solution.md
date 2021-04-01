@@ -1,6 +1,6 @@
 # [Simple Steganography](https://ctflearn.com/challenge/894) (30)
 Upon downloading the image we are presented with: <br />
-![Minions](img/Minion1.jpeg) <br />
+![Minions](img/Minions1.jpeg) <br />
 > hint-" Steghide Might be Helpfull" <br />
 
 `exif` finds nothing, `file` finds nothing relevant, `strings` finds an interesting string: `myadmin` <br />
