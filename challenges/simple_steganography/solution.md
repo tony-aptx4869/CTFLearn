@@ -1,5 +1,5 @@
 # [Simple Steganography](https://ctflearn.com/challenge/894) (30)
-Upon downloading the image we are presented with: <br />
+Upon downloading the [image](https://ctflearn.com/challenge/download/894) we are presented with: <br />
 ![Minions](img/Minions1.jpeg) <br />
 > hint-" Steghide Might be Helpfull" <br />
 
