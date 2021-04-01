@@ -28,3 +28,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 25. [I'm a dump](https://github.com/XNUConner/CTFLearn/tree/master/challenges/im_a_dump) <br />
 26. [Chalkboard](https://github.com/XNUConner/CTFLearn/tree/master/challenges/chalkboard) <br />
 27. [Tux!](https://github.com/XNUConner/CTFLearn/tree/master/challenges/tux) <br />
+28. [Pho Is Tasty!](https://github.com/XNUConner/CTFLearn/tree/master/challenges/pho_is_tasty) <br />
