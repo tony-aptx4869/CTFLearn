@@ -1,7 +1,8 @@
 # [Simple Programming](https://ctflearn.com/challenge/174) (30)
 Downloading the file from the [link](https://mega.nz/file/7aoVEKhK#BAohJ0tfnP7bISIkbADK3qe1yNEkzjHXLKoJoKmqLys) gives us `data.dat` <br />
 It contains a 10000 lines of binary data, the challenge wants us to determine: <br />
-> the number of 0's is a multiple of 3 or the numbers of 1s is a multiple of 2. <br />
+> the number of 0's is a multiple of 3 or the numbers of 1s is a multiple of 2
+
 We can write a python script to take care of this:
 ```
 hits = 0
