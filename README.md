@@ -32,3 +32,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 29. [Modern Gaius Julius Caesar](https://github.com/XNUConner/CTFLearn/tree/master/challenges/modern_gaius_julius_caesar) <br />
 30. [GandalfTheWise](https://github.com/XNUConner/CTFLearn/tree/master/challenges/gandalfthewise) <br />
 31. [Simple Steganography](https://github.com/XNUConner/CTFLearn/tree/master/challenges/simple_steganography) <br />
+32. [Suspecious message](https://github.com/XNUConner/CTFLearn/tree/master/challenges/suspecious_message) <br />
