@@ -1,7 +1,5 @@
 # [Lazy Game Challenge](https://ctflearn.com/challenge/691) (30)
 
-### GITHUB DOES NOT RENDER THIS MARKDOWN CORRECTLY
-
 Let's connect to the server with `nc thekidofarcrania.com 10001` <br />
 Here's what we see: <br />
 ```
@@ -26,7 +24,7 @@ theKidOfArcrania:
 Are you ready? Y/N : 
 ```
 I'm not taking a very strict approach to this challenge, just messing around with it to see if anything breaks, called fuzzing. <br />
-<br />
+
 I was able to get the server to display an error message by giving it strange input: <br />
 ```
 Money you have : 500$
@@ -37,7 +35,7 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '(1 * (-500))'
 ```
 Now we have a piece of information on how the serverside code handles things, we  know the server is programmed in python, and we see that our bet is stored in the variable `spent` <br />
-<br />
+
 I was able to increase my balance on a loss by entering a negative integer when placing a bet: <br />
 ```
 (placed bet of -1000)
@@ -50,7 +48,7 @@ Your balance has been updated !.
 Current balance :  : 
 1500$
 ```
-<br />
+
 I was able to win a jackpot by guessing the correct number, but when betting -1000000 it caused my balance to be displayed as negative: <br />
 ```
 You made it !.
@@ -61,7 +59,7 @@ Your balance has been updated !
 Current balance : -100500$
 Want to play again? Y/N : 
 ```
-<br />
+
 Placing a bet with an extremely large negative number causes an immediate server disconnect: <br />
 ```
 Money you have : -1999500$
@@ -69,7 +67,7 @@ Place a Bet : -10000000000000000000000000000000000000000000000000000000000000000
 
 (disconnected)
 ```
-<br />
+
 **What we've learned**:
 If you bet with a negative number and win, your account balance will decrease. <br />
 We know that we can bet numbers **less than** our balance, and if we win, our balance has our bet added to it. <br />
