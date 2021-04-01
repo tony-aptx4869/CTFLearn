@@ -2,7 +2,7 @@
 Downloading and opening the [image](https://ctflearn.com/challenge/download/936) we are presented with: <br />
 ![Gandalf](img/Gandalf.jpg) <br />
 Immediately we can see that the image is very small, which leads me to believe there may be something embedded inside <br />
-In an attempt to get the filesize, I ran `file Gandalf.jpg` on got some interesting output: <br />
+In an attempt to get the filesize, I ran `file Gandalf.jpg` and got some interesting output: <br />
 ```
 $ file Gandalf.jpg
 img/Gandalf.jpg: JPEG image data, JFIF standard 1.01, aspect ratio, density 1x1, segment length 16, comment: "Q1RGbGVhcm57eG9yX2lzX3lvdXJfZnJpZW5kfQo=", comment: "xD6kfO2UrE5SnLQ6WgESK4kvD/Y/rDJPXNU45k/p", comment: "h2riEIj13iAp29VUPmB+TadtZppdw3AuO7JRiDyU", baseline, precision 8, 225x225, frames 3
