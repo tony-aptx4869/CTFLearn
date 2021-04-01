@@ -31,3 +31,4 @@ Write ups for all challenges i've solved on [CTFLearn](https://ctflearn.com).
 28. [Pho Is Tasty!](https://github.com/XNUConner/CTFLearn/tree/master/challenges/pho_is_tasty) <br />
 29. [Modern Gaius Julius Caesar](https://github.com/XNUConner/CTFLearn/tree/master/challenges/modern_gaius_julius_caesar) <br />
 30. [GandalfTheWise](https://github.com/XNUConner/CTFLearn/tree/master/challenges/gandalfthewise) <br />
+31. [Simple Steganography](https://github.com/XNUConner/CTFLearn/tree/master/challenges/simple_steganography) <br />
