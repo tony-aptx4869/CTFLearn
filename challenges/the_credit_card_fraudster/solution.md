@@ -53,7 +53,7 @@ Our sum does end in 0, meaning our credit card number is valid. <br />
 From here, we need to find a string of digits that is a multiple of 123457 and passes the luhn algorithm. <br />
 We know there are 6 digits missing from the card number, so at most there are 1 million card combinations to try. <br />
 We can brute force the card number with a python script: <br />
-```
+```python
 def luhncheck(digits_str):
 	luhn_sum = 0
 
