@@ -36,7 +36,7 @@ Visiting the link we are presented with: <br />
 ![Minion wearing crown](img/Only_Few_Steps.jpg) <br />
 Running `strings Only_Few_Steps.jpg` we find one string of note: `YouWon(Almost).jpg` <br />
 `foremost` finds nothing to extract from the image. <br />
-`binwalk` finds nothing useful to extract form the image: <br />
+`binwalk` finds nothing useful to extract from the image: <br />
 ```
 DECIMAL       HEXADECIMAL     DESCRIPTION
 --------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 426           0x1AA           Copyright string: "Copyright (c) 1998 Hewlett-Packard Company"
 ```
 
---------------------------------------------------------------------------------------------------------------------------- <br />
+<hr />
 
 There really wasn't much else I could do here, `binwalk`, `foremost`, `exif`, `xxd`, all revealed nothing. I googled the solution and apparently `binwalk` is to be used to find a RAR file embedded in this second image. I assume either the image has since been modified or binwalk was changed and for some reason no longer finds the RAR file. <br />
 
