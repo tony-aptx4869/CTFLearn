@@ -47,3 +47,6 @@ Verifying the match with md5sum: `echo -n "Spring2019" | md5sum` outputs the exa
 We're on the right track, could the flag be an insertion of `Spring2019`?
 
 Entering our guess on ctflearn, we are successful. Our flag: `CTFlearn{Spring2019_is_not_secure!}` <br />
+
+*You could also crack an md5 hash with:* `hashcat -m 0 b74dec4f39d35b6a2e6c48e637c8aedb` <br />
+*You will probably need a beefy dedicated gpu for time efficiency* <br />
