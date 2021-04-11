@@ -1,5 +1,5 @@
 # [Basic Android RE 1](https://ctflearn.com/challenge/962) (10)
-This challenge gives us an [apk file](https://ctflearn.com/challenge/download/962) for download, APK files are actually renamed zip file, so we can use `unzip` to extract the contents. However the challenge text implies we need to reverse engineer part of the code, so more analyze will be required than a simply look at the apk contents. <br />
+This challenge gives us an [apk file](https://ctflearn.com/challenge/download/962) for download, APK files are actually renamed zip files, so we can use `unzip` to extract the contents. However the challenge text implies we need to reverse engineer part of the code, so more analyze will be required than a simply look at the apk contents. <br />
 
 We can use `apktool` a commandline tool for analyzing apks on linux, use `apktool d BasicAndroidRE1.apk` to **d**ecode the apk into a subdirectory. <br />
 
