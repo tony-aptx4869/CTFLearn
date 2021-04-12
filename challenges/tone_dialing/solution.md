@@ -16,7 +16,7 @@ I continued to do a lot of searching with `xxd` and found absolutely nothing use
 
 Googling "Tone dialing", we're able to find a wikipedia article titled [Dual-tone multi-frequency signaling](https://en.wikipedia.org/wiki/Dual-tone_multi-frequency_signaling). Under the *Keypad* header, there is a table showing the relationship between two frequencies and their associated value. <br />
 By running the .wav file through a [spectrogram analysis tool](https://academo.org/articles/spectrogram/), we're able to visualize the tone dialing audio. <br />
-![Spectrogram](img/spectrogram) <br />
+![Spectrogram](img/spectrogram.png) <br />
 Each *beep* has two tones associated with it, which are denoted by the yellow lines. The tone of lower frequency is tone A, and the tone above is tone B. We can use the keypad table on wikipedia to manually decode this, but it's a tricky without a 0-2kHz scale. <br />
 I decoded the first 4 beeps of the spectrogram, and they resolve to `6 7 8 4`, since the beeps are in pulses of 2 or 3, by associating the digits with their respective pulses we get `67 84` - ascii for `CT`, looks like we're decoding a flag. <br />
 
@@ -37,3 +37,6 @@ Ascii character representations of these values: <br />
 Looks like the program left out the `r` or maybe it wasn't included in the first place. <br />
 Entering the flag with the `r` included anyway is successful: <br />
 Our flag is `CTFlearn{CRYPTOGRAPHY}` <br />
+
+**SHaNTuDe**: *I like the challenge, but I am kind of disappointed. I was so sure, the numbers in description denote specific algorithms: 1pm and 24 hour clock - ROT-13, 64 years - Base64. I know it is in easy category, but would be more challenging if it was encrypted in some way :)* <br />
+**GreenGoblin30**: *Maybe I sent wrong file with task, because it could be done that way you wrote. I made a mistake.* <br />
