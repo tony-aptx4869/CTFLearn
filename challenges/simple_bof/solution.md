@@ -138,9 +138,9 @@ CTFlearn{buffer_0verflows_4re_c00l!}
 
 Now we have our flag: `CTFlearn{buffer_0verflows_4re_c00l!}` <br />
 
-Notes:
+**Notes**: <br />
 *Apparently the stack doesn't HAVE to grow downwards, like I believed:* [stackoverflow](https://stackoverflow.com/questions/1677415/does-stack-grow-upward-or-downward). <br />
 
 *There is a null terminator at the end of our input text, that's why* `0x00` *will always be at the end of our buffer overflow*. <br />
 
-*Variables are stored in memory left-to-right, thats why `0xdeadbeef` is `ef be ad de` in memory.* <br />
+*Variables are stored in memory left-to-right, thats why* `0xdeadbeef` *is* `ef be ad de` *in memory.* <br />
