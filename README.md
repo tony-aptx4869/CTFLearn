@@ -51,3 +51,4 @@ Challenges can be anything from [decoding a simple cipher](https://github.com/XN
 40. [Reykjavik](https://github.com/XNUConner/CTFLearn/tree/master/challenges/reykjavik) <br />
 41. [Blank Page](https://github.com/XNUConner/CTFLearn/tree/master/challenges/blank_page) <br />
 42. [RIP my bof](https://github.com/XNUConner/CTFLearn/tree/master/challenges/rip_my_bof) <br />
+43. [abandoned place](https://github.com/XNUConner/CTFLearn/tree/master/challenges/abandoned_place) <br />
