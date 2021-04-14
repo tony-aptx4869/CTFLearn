@@ -49,3 +49,4 @@ Challenges can be anything from [decoding a simple cipher](https://github.com/XN
 38. [Tone dialing](https://github.com/XNUConner/CTFLearn/tree/master/challenges/tone_dialing) <br />
 39. [Time Traveller](https://github.com/XNUConner/CTFLearn/tree/master/challenges/time_traveller) <br />
 40. [Reykjavik](https://github.com/XNUConner/CTFLearn/tree/master/challenges/reykjavik) <br />
+41. [Blank Page](https://github.com/XNUConner/CTFLearn/tree/master/challenges/blank_page) <br />
