@@ -132,17 +132,17 @@ We can see all the imported functions that are called with `rabin2`: <br />
 $ rabin2 -i Reykjavik 
    1 0x00000000    WEAK  NOTYPE _ITM_deregisterTMCloneTable
    2 0x0000102a  GLOBAL    FUNC puts
-   3 0x00000000  GLOBAL    FUNC \__libc_start_main
+   3 0x00000000  GLOBAL    FUNC __libc_start_main
    4 0x0000103a  GLOBAL    FUNC strcmp
-   5 0x00000000    WEAK  NOTYPE \__gmon_start\__
+   5 0x00000000    WEAK  NOTYPE __gmon_start__
    6 0x0000104a  GLOBAL    FUNC __printf_chk
-   7 0x00000000    WEAK  NOTYPE \_ITM_registerTMCloneTable
-   8 0x00000000    WEAK    FUNC \__cxa_finalize
-   1 0x00000000    WEAK  NOTYPE _ITM_deregisterTMCloneTable
-   3 0x00000000  GLOBAL    FUNC \__libc_start_main
-   5 0x00000000    WEAK  NOTYPE \__gmon_start__
    7 0x00000000    WEAK  NOTYPE _ITM_registerTMCloneTable
-   8 0x00000000    WEAK    FUNC \__cxa_finalize
+   8 0x00000000    WEAK    FUNC __cxa_finalize
+   1 0x00000000    WEAK  NOTYPE _ITM_deregisterTMCloneTable
+   3 0x00000000  GLOBAL    FUNC __libc_start_main
+   5 0x00000000    WEAK  NOTYPE __gmon_start__
+   7 0x00000000    WEAK  NOTYPE _ITM_registerTMCloneTable
+   8 0x00000000    WEAK    FUNC __cxa_finalize
 ```
 
 To solve this CTF, we have to analyze the program in a debugger, and step through the execution, just like the challenge text suggests. <br />
@@ -363,17 +363,17 @@ hit breakpoint at: 56266ab11168
 [0x56266ab11168]> px 32 @ rsp
 - offset -       0 1  2 3  4 5  6 7  8 9  A B  C D  E F  0123456789ABCDEF
 0x7ffc83675ac0  4354 466c 6561 726e 7b45 7965 5f4c 3076  CTFlearn{Eye_L0v
-0x7ffc83675ad0  655f 4963 656c 616e 645f 7d00 2656 0000  e_Iceland\_}.&V..
+0x7ffc83675ad0  655f 4963 656c 616e 645f 7d00 2656 0000  e_Iceland_}.&V..
 [0x56266ab11168]> 
 ```
 
 There's our flag loading into memory, now let's run the program with it as our argument: <br />
 ```
-$ ./Reykjavik CTFlearn{Eye_L0ve_Iceland\_}
-Welcome to the CTFlearn Reversing Challenge Reykjavik v2: CTFlearn{Eye_L0ve_Iceland\_}
+$ ./Reykjavik CTFlearn{Eye_L0ve_Iceland_}
+Welcome to the CTFlearn Reversing Challenge Reykjavik v2: CTFlearn{Eye_L0ve_Iceland_}
 Compile Options: ${CMAKE_CXX_FLAGS} -O0 -fno-stack-protector -mno-sse
 
-Congratulations, you found the flag!!: 'CTFlearn{Eye_L0ve_Iceland\_}'
+Congratulations, you found the flag!!: 'CTFlearn{Eye_L0ve_Iceland_}'
 
 ```
 
