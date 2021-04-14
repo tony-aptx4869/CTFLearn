@@ -50,3 +50,4 @@ Challenges can be anything from [decoding a simple cipher](https://github.com/XN
 39. [Time Traveller](https://github.com/XNUConner/CTFLearn/tree/master/challenges/time_traveller) <br />
 40. [Reykjavik](https://github.com/XNUConner/CTFLearn/tree/master/challenges/reykjavik) <br />
 41. [Blank Page](https://github.com/XNUConner/CTFLearn/tree/master/challenges/blank_page) <br />
+42. [RIP my bof](https://github.com/XNUConner/CTFLearn/tree/master/challenges/rip_my_bof) <br />
