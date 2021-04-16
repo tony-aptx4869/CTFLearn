@@ -53,3 +53,6 @@ Challenges can be anything from [decoding a simple cipher](https://github.com/XN
 42. [RIP my bof](https://github.com/XNUConner/CTFLearn/tree/master/challenges/rip_my_bof) <br />
 43. [abandoned place](https://github.com/XNUConner/CTFLearn/tree/master/challenges/abandoned_place) <br />
 44. [Adoni Assembler Chall](https://github.com/XNUConner/CTFLearn/tree/master/challenges/adoni_assembler_chall) <br />
+
+**PAUSED INDEFINITELY**: <br />
+I am still completing challenges, but write ups are too complex and cumbersome at this point. As these challenges grow more complex they can take hours if not days to solve, and write ups for every thought and step in a complex debugger like radare2 are not feasible to write up. <br />
